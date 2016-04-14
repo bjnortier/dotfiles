@@ -16,4 +16,5 @@ PS1='\w$(__git_ps1 "\[\033[0;32m\](%s)\[\033[0;30m\]")\$ '
 export PATH=/usr/local/share/npm/bin/:$PATH
 export NODE_PATH=/usr/local/lib/node_modules
 
-
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
